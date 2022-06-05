@@ -1,0 +1,104 @@
+.container {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right bottom, #335dff, #5a72fa);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background-color: #fff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  width: fit-content;
+  min-width: 380px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.home {
+  margin-left: -300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.homeLink {
+  position: absolute;
+  left: 0%;
+  top: -22px;
+}
+
+.homelink a {
+  color: rgb(24, 23, 23);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.form .heading {
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-size: 1.6rem;
+}
+
+.form button {
+  border: none;
+  outline: none;
+  padding: 8px 16px;
+  margin-top: -30px;
+  background-color: #335dff;
+  color: #fff;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 200ms;
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+}
+
+.form button:hover {
+  background-color: #335dff;
+}
+
+.form button:active {
+  transform: translateY(1px);
+}
+
+.form button:disabled {
+  background-color: rgb(191, 191, 191) !important;
+}
+
+.form .error {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #e92121;
+  width: 100%;
+  text-align: center;
+}
+
+.form .bottom p {
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.bottom p a {
+  color: #335dff;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}

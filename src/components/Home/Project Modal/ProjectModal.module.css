@@ -1,0 +1,80 @@
+.container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 650px;
+}
+
+.inner {
+  display: flex;
+  gap: 30px;
+}
+
+.heading {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 1.4;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.left .image {
+  height: 160px;
+  width: 280px;
+}
+
+.left .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.left .links {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.left .links svg {
+  height: 22px;
+  width: 22px;
+  color: #335dff;
+  cursor: pointer;
+}
+
+.right .title {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.right .overview {
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+}
+
+.right ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 15px;
+}
+
+.right ul li {
+  font-size: 1rem;
+  color: darkslategray;
+}
