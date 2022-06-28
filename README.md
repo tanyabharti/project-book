@@ -1,5 +1,5 @@
 # Project-Book - A project management web application 
-A full-fledged web application built using React and Firebase where user can keep record of all his development projects that he has done so far. 
+A full-fledged web application developed using React and Firebase where user can keep record of all his development projects that he has done so far. 
 Implemented user authentication using Firebase.                                                                                                                       Project hosted on Firebase.
 
 ### Website Link - https://project-book-c8317.firebaseapp.com/
